@@ -618,6 +618,7 @@ in
       };
       default = {};
       description = "Extra config to merge into Firecracker JSON configuration";
+    };
 
     vfkit.extraArgs = mkOption {
       type = with types; listOf str;
